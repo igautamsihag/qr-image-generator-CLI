@@ -1,0 +1,67 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+.env.*.local
+
+# Build outputs
+dist/
+build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE configurations
+.vscode/
+.idea/
+*.swp
+
+# Package lock files (optional, if not using them)
+# Uncomment the following if you don't want to commit lock files.
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Coverage directories
+coverage/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Debugger configurations
+.vscode/launch.json
+.vscode/settings.json
+
+# Other generated files
+*.log
+*.cache
+.eslintcache
+.parcel-cache/
+.sass-cache/
+.nyc_output/
+
+# TypeScript output (if applicable)
+*.tsbuildinfo
+
+# Optional
+# Ignore database files or local assets
+*.sqlite
+*.sqlite3
